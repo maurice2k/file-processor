@@ -63,7 +63,7 @@ optional arguments:
                         Max. number of parallel file processors on the given
                         directory (default: 10)
   --max-runtime MAX_RUNTIME
-                        Maximum runtime in secondss (default: 0)
+                        Maximum runtime in seconds (default: 0)
   --process-timeout PROCESS_TIMEOUT
                         Time in seconds after which a file in process will be
                         considered as failed (and will be retried). This is

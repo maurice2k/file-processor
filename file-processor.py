@@ -122,7 +122,7 @@ parser.add_argument('--verbose', '-v', action='count', help='Level of verbosity'
 parser.add_argument('--sort', '-s', choices={'mtime', 'name'}, default='mtime', help='Sort by modification time or name')
 parser.add_argument('--sort-reverse', '-r', default=False, action='store_true', help='Sort in reverse order')
 parser.add_argument('--max-concurrency', '-c', type=int, default=10, help='Max. number of parallel file processors on the given directory')
-parser.add_argument('--max-runtime', type=int, default=0, help='Maximum runtime in secondss')
+parser.add_argument('--max-runtime', type=int, default=0, help='Maximum runtime in seconds')
 parser.add_argument('--process-timeout', type=int, default=process_timeout, help='Time in seconds after which a file in process will be considered as failed (and will be retried). This is dependent on how long the processing command (--cmd) will usually take to process a single file.')
 parser.add_argument('--move-to', help='Move files to given location (instead of renaming to .fp-done-...) after being successfully processed. Files are moved without sub-directories and existing files will be overwritten.')
 parser.add_argument('--delete', default=False, action='store_true', help='Delete files (instead of renaming to .fp-done-...) after being successfully processed.')
